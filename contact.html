@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- font Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+  <!-- CSS files -->
+  <link rel="stylesheet" href="./css/all.min.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <title>Compass Starter by Arionar Rian</title>
+</head>
+
+<body>
+
+  <header class="header py-5">
+    <div class="container">
+
+      <nav class="nav navbar navbar-expand-lg  d-flex justify-content-between align-items-center">
+        <a href="/" class="logo d-flex align-items-center gap-3 w-auto">
+          <img src="./images/logo.png" alt="cloud image" class="logo-img">
+
+          <div>
+            <h1 class="fs-6 fw-bold mb-0">Company name</h1>
+            <span class="logo-span">tagline wes here</span>
+          </div>
+        </a>
+
+        <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-white"></i>
+        </button>
+
+        <div class="collapse navbar-collapse flex-grow-0 nav-links" id="navbarNav">
+          <ul class="d-flex align-items-center gap-lg-3 navbar-nav">
+            <li class="nav-item">
+              <a href="./index.html" class="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./contact.html" class="active">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <div class="other-nav d-flex gap-2">
+        <a href="./index.html">Home</a>
+        <span><i class="fa-solid fa-arrow-right"></i></span>
+        <span>Contact</span>
+      </div>
+
+      <section class="container-fluid py-5">
+
+        <div class="row">
+
+          <div class="col-lg-4 align-self-start contact-details rounded-4">
+            <div class="map"></div>
+            <div class="contact-info d-flex flex-wrap gap-3">
+              <div class="d-flex align-items-center gap-2"><i class="fa-solid fa-location-dot"></i>
+                <div>
+                  <p class="mb-0">Company Name INC.</p>
+                  <p class="mb-0">2803 Avenue Street, Los Angeles</p>
+                </div>
+              </div>
+              <div class="d-flex align-items-center gap-2"><i class="fa-solid fa-phone"></i> <span>+1 800 314 235</span>
+              </div>
+              <div class="d-flex align-items-center gap-2"><i class="fa-solid fa-envelope"></i>
+                <span>contact@companyname.com</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-1"></div>
+
+          <div class="col-lg-6 contact-us">
+            <h2 class="mx-2">Contact us</h2>
+            <p class="mx-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore
+              ducimus, facilis,
+              numquam id
+              soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+
+            <div class="container-fluid">
+              <form class="mb-0 contact-form row">
+                <div class="col-12 col-lg-6 px-2 mb-3">
+                  <input type="text" placeholder="Your name..." class="form-control">
+
+                </div>
+                <div class="col-12 col-lg-6 px-2 mb-3">
+
+                  <input type="text" placeholder="Email address..." class="form-control">
+                </div>
+                <div class="col-12 col-lg-6 px-2 mb-3">
+                  <input type="text" placeholder="Company name..." class="form-control">
+
+                </div>
+                <div class="col-12 col-lg-6 px-2 mb-3">
+
+                  <input type="text" placeholder="Website..." class="form-control">
+                </div>
+                <div class="px-2">
+                  <textarea class="form-control" placeholder="Message..."></textarea>
+                </div>
+
+                <button type="button" class="btn ms-auto mt-3 w-auto">Submit</button>
+              </form>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="py-5 footer">
+    <div class="container">
+
+      <div class="row align-items-center mb-4">
+        <form class="col-12 col-md-8 position-relative mb-0 form">
+          <input type="text" placeholder="Enter your email to subscribe..." class="form-control">
+          <button type="submit" class="position-absolute subscribe-btn text-white">Subscribe</button>
+        </form>
+
+        <ul
+          class="mb-0 col-12 col-md-4 mt-3 mt-md-0 social list-unstyled d-flex align-items-center justify-content-center gap-2">
+          <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
+          <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+        </ul>
+      </div>
+
+      <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

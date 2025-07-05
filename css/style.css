@@ -93,7 +93,7 @@ a.logo:active {
   }
 }
 
-.main {
+.main.bg-img {
   background-image: url(../images/hero.png);
   background-repeat: no-repeat;
   background-position: top;
@@ -249,3 +249,100 @@ a.logo:active {
 .social li:hover i {
   color: #fff;
 }
+
+.other-nav {
+  background-color: #262936;
+  padding: 20px 30px;
+  border-radius: 40px;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.other-nav a:link,
+.other-nav a:visited,
+.other-nav i {
+  color: #bfc1c3;
+  text-decoration: none;
+}
+
+.other-nav a:hover,
+.other-nav a:active {
+  text-decoration: underline;
+}
+
+.contact-details {
+  background-color: #262936;
+}
+
+.map {
+  height: 220px;
+}
+
+.contact-info {
+  font-size: 14px;
+  font-weight: 400;
+  color: #bfc1c8;
+  padding: 20px;
+}
+
+.contact-info i {
+  color: #0aabdb;
+}
+
+.contact-info > div:first-child {
+  flex-basis: 100%;
+}
+
+.contact-us h2 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.contact-us p {
+  font-size: 14px;
+  color: #bfc1c8;
+}
+
+.contact-us .contact-form input,
+.contact-us .contact-form textarea {
+  border: 2px solid #393c48;
+  padding: 15px;
+  outline: none;
+  box-shadow: none;
+  background-color: #1e202b;
+  color: #fff;
+  border-radius: 30px;
+}
+
+.contact-us .contact-form input:hover,
+.contact-us .contact-form input:focus,
+.contact-us .contact-form textarea:hover,
+.contact-us .contact-form textarea:focus {
+  border-color: #009ad8;
+}
+
+.contact-us .contact-form textarea {
+  height: 150px;
+}
+
+.contact-us .contact-form input::placeholder,
+.contact-us .contact-form textarea::placeholder {
+  color: #687272;
+}
+
+.contact-us .contact-form button {
+  background-color: #009ad8;
+  color: #fff;
+  border-radius: 30px;
+}
+
+/* .contact-us .contact-form input:focus {
+  background-color: #1e202b;
+  border: none;
+  padding: 15px;
+  border-radius: 30px;
+  color: #fff;
+  box-shadow: none;
+  border-color: #009ad8;
+  outline: none;
+} */
